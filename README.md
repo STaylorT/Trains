@@ -1,5 +1,8 @@
 # Trains
-CS315 Project -- Simulates Trains at a Switching Station
+# Taylor Thomas 4/2021
+# CS315 Project -- Simulates Trains at a Switching Station
+
+**Assignment Specifications:**
 Write a program that simulates trains at a switching station.
 
 At the beginning of the simulation, there are n trains. Each starts with c cars. Each car has a fixed size s that limits how much it can carry. The sizes of the cars in each train are 1 ... c, from the front to the back of the train. Trains are loaded with more valuable materials toward the back of the train, so the value of a train is the sum of p*s, where p is the position of each car (starting at 1) and s is its size. So the starting value of each train is 1*1 + 2*2 + ... + c*c = c(c+1)(2c+1)/6.
